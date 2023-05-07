@@ -1,0 +1,153 @@
+@import url('https://fonts.cdnfonts.com/css/new-rocker');
+@import url('https://fonts.cdnfonts.com/css/metal-mania');
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'New Rocker', sans-serif;
+    color: #ccc;
+}
+
+html, body {
+    margin: 4;
+    padding: 0;
+    background-color: black;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+} 
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .4);
+    background-image: url("pics/header background 3.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Metal Mania', sans-serif;
+    color: white;
+    font-weight: normal;
+}
+
+.band-name-large {
+    font-size: 7em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin:   0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "New Rocker";
+    font-weight: normal;
+    color: #ccc;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 25%;
+
+}
+
+.main-footer {
+    background-color: black;
+    color: white;
+    padding: .25em 0;
+    position: relative;
+    clear: both;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+flex-grow: 1;
+text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    ;
+}
+
+.tour-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+    margin: 1em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #ccc;
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-venue {
+    width: 24%;
+}
+
+.tour-location {
+    width: 42%;
+}
+
+.tour-time {
+    width: 20%;
+}
