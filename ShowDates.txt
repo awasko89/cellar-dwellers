@@ -1,0 +1,85 @@
+<Doctype html>
+    <html>
+
+    <head>
+        <title>Show Dates</title>
+        <meta name="description" content="Cellar Dwellers Show Dates">
+        <link rel="stylesheet" href="styles.css" />
+        </head>
+        <body>
+
+        <header class="main-header">
+            <nav class="nav main-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="ShowDates.html">SHOW DATES</a></li>
+                    <li><a href="Gallery.html"> Gallery</a></li>
+                </ul>
+            </nav>
+
+            <h1 class="band-name band-name-large">CELLAR DWELLERS</h1>
+            <!--find a background image-->
+        </header>
+
+        <section class="content-section container">
+            <h2 class="section-header">Shows Dates:</h2>
+            <h3>2023</h3>
+            <div>
+
+
+                <div class="tour-row">
+                    <span class="tour-item tour-date">April 28th</span>
+                  <span class="tour-item tour-venue">Cathlic War Vets</span>
+                    <span class="tour-item tour-location">175 Old Ashley Road,
+                        Ashley PA 18706</span>
+                        <span class="tour-item tour-time"> 8:00PM </span>
+                </div>
+
+                <div class="tour-row">
+                   <span class="tour-item tour-date">July 8th</span>
+                    <span class="tour-item tour-venue">AM Vets</span>
+                    <span class="tour-item tour-location">578 Fellows Ave,
+                        Hanover Twp PA 18706</span>
+                        <span class="tour-item tour-time">7:00PM</span>
+                </div>
+
+                <div class="tour-row">
+                    <span class="tour-item tour-date">July 21st</span>
+                    <span class="tour-item tour-venue">TBA</span>
+                    <span class="tour-item tour-location"> </span>
+                </div>
+
+                <div class="tour-row">
+                    <span class="tour-item tour-date">July 29th</span>
+                    <span class="tour-item tour-venue">TBA</span>
+                    <span class="tour-item tour-location"> </span>
+                </div>
+
+                <div class="tour-row">
+                    <span class="tour-item tour-date">Aug 26th</span>
+                    <span class="tour-item tour-venue">Rock & Wings Fest</span>
+                    <span class="tour-item tour-location">*Exclusive*</span>
+                </div>
+
+            </div>
+        </section>
+
+
+        
+   <footer class="main-footer">
+            <div class="container main-footer-container">
+            <h3 class="band-name">Cellar Dwellers</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <img src="pics/youtube-logo-black edit.jpg" width="50px">
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/groups/3113696262262605" target="_blank"> 
+                    <img src="pics/Facebook-logo.png" width="50px"></a>
+                </li>
+            </ul>
+          </div>
+        </footer>
+
+        </body>
+        </html>
